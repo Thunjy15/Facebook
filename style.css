@@ -1,0 +1,116 @@
+body {
+    background-color: whitesmoke;
+}
+
+/* *{box-sizing: border-box} */
+
+form {
+    border: 1px solid white;
+    width: 500px;
+    background-color: white;
+    height: 500px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow:5px 5px rgb(216, 205, 205);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+     
+}
+
+.container {
+    font-size: 20px;
+    display: block;
+    margin: auto;
+    width: 500px;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 60px;
+    color: blue;
+    margin-bottom: 5px;
+    background: red;
+    background: -webkit-linear-gradient(left, orange, yellow, green, cyan, blue, violet);
+    background: -o-linear-gradient(right,  orange, yellow, green, cyan, blue, violet );
+    background: -moz-linear-gradient(right,  orange, yellow, green, cyan, blue, violet);
+    background: linear-gradient(to right,  orange, yellow, green, cyan, blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container p {
+    text-align: center;
+    font-size: 30px;
+}
+
+input {
+    width: 100%;
+    padding: 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    line-height: 2em;
+    border-radius: 5px;
+    font-size: 20px;
+
+}
+
+button {
+    background-color: rgb(85, 85, 225);
+    color: white;
+    padding: 14px 20px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.Log-in {
+    padding: 14px 20px;
+    background-color: blue;
+    margin-top: 5%;
+
+}
+
+.create-new-account {
+    background-color: green;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 10%;
+
+}
+
+#paragraph {
+    text-align: center;
+    font-size: 20px;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+#container {
+    text-align: center;
+    margin-top: 60%;
+    font-size: 21px;
+    
+   
+}
+
+footer {
+    color: black;
+    font-size: 16px;
+    bottom: 0px;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(221, 219, 219);
+    position: fixed;
+    padding-top: 5px;
+    font-size: 20px;
+}
